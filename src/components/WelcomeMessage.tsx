@@ -16,7 +16,7 @@ const WelcomeMessage: React.FC<WelcomeMessageProps> = ({ onStartChat }) => {
             <Home size={24} />
           </div>
           <div className="text-4xl font-bold bg-gradient-to-r from-rental-primary to-rental-secondary text-transparent bg-clip-text mb-2">
-            Welcome to Funky Homes! 🎪
+            Welcome to HEAVEN HOMES! 🏡
           </div>
         </div>
         <p className="text-xl text-muted-foreground mb-6">
@@ -48,7 +48,7 @@ const WelcomeMessage: React.FC<WelcomeMessageProps> = ({ onStartChat }) => {
         onClick={onStartChat} 
         className="bg-gradient-to-r from-rental-primary to-rental-secondary hover:opacity-90 transition-all text-white px-8 py-6 text-lg rounded-full"
       >
-        Let's Find Your Dream Rental! 🎭
+        Let's Find Your Dream Rental! 🏡
       </Button>
     </div>
   );

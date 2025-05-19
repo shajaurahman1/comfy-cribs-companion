@@ -5,65 +5,65 @@
 
 @layer base {
   :root {
-    --background: 280 70% 98%;
-    --foreground: 280 10% 15%;
+    --background: 120 70% 98%;
+    --foreground: 120 10% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 280 10% 15%;
+    --card-foreground: 120 10% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 280 10% 15%;
+    --popover-foreground: 120 10% 15%;
 
-    --primary: 270 100% 64%;
+    --primary: 142 70% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 330 95% 64%;
+    --secondary: 120 95% 64%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 280 30% 96%;
-    --muted-foreground: 280 5% 45%;
+    --muted: 120 30% 96%;
+    --muted-foreground: 120 5% 45%;
 
-    --accent: 280 50% 94%;
-    --accent-foreground: 280 10% 15%;
+    --accent: 120 50% 94%;
+    --accent-foreground: 120 10% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 280 20% 88%;
-    --input: 280 20% 88%;
-    --ring: 270 100% 64%;
+    --border: 120 20% 88%;
+    --input: 120 20% 88%;
+    --ring: 142 70% 45%;
 
     --radius: 1rem;
   }
 
   .dark {
-    --background: 280 50% 8%;
+    --background: 120 50% 8%;
     --foreground: 0 0% 98%;
 
-    --card: 280 50% 12%;
+    --card: 120 50% 12%;
     --card-foreground: 0 0% 98%;
 
-    --popover: 280 50% 12%;
+    --popover: 120 50% 12%;
     --popover-foreground: 0 0% 98%;
 
-    --primary: 270 100% 64%;
+    --primary: 142 70% 45%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 330 95% 64%;
+    --secondary: 120 95% 64%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 280 25% 20%;
-    --muted-foreground: 280 5% 70%;
+    --muted: 120 25% 20%;
+    --muted-foreground: 120 5% 70%;
 
-    --accent: 280 30% 20%;
+    --accent: 120 30% 20%;
     --accent-foreground: 0 0% 98%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 98%;
 
-    --border: 280 25% 25%;
-    --input: 280 25% 25%;
-    --ring: 270 100% 64%;
+    --border: 120 25% 25%;
+    --input: 120 25% 25%;
+    --ring: 142 70% 45%;
   }
 }
 
@@ -83,7 +83,7 @@
   }
 
   .message-assistant {
-    @apply bg-rental-primary text-white rounded-br-none;
+    @apply bg-primary text-white rounded-br-none;
   }
 
   .message-user {

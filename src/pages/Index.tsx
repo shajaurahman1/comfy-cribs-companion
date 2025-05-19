@@ -13,9 +13,9 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-gradient-to-br from-rental-primary to-rental-secondary rounded-full flex items-center justify-center text-white font-bold text-xl">
-                F
+                H
               </div>
-              <span className="font-bold text-xl">Funky Homes</span>
+              <span className="font-bold text-xl">HEAVEN HOMES</span>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@ const Index = () => {
 
       <footer className="mt-auto border-t">
         <div className="container mx-auto p-4 text-center text-sm text-muted-foreground">
-          <p>© 2025 Funky Homes - Your rental assistant with pizzazz! 🎭</p>
+          <p>© 2025 HEAVEN HOMES - Created by Shajau Rahman - Your rental assistant with pizzazz! 🎭</p>
         </div>
       </footer>
     </div>

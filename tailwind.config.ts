@@ -64,11 +64,11 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				rental: {
-					primary: '#8B5CF6',
-					secondary: '#EC4899',
-					accent: '#F97316',
-					light: '#F3E8FF',
-					dark: '#4C1D95'
+					primary: '#4CAF50',
+					secondary: '#8BC34A',
+					accent: '#CDDC39',
+					light: '#E8F5E9',
+					dark: '#2E7D32'
 				}
 			},
 			borderRadius: {
